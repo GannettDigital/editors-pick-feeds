@@ -1,0 +1,43 @@
+{
+  "name": "EditorsPickFeed",
+  "version": "0.0.1",
+  "description": "Repo to host editors' pick feed monitoring script",
+  "main": "app.js",
+  "scripts": {
+    "feeds": "mocha"
+  },
+  "dependencies": {
+    "chai": "^2.1.0",
+    "chai-json-schema": "1.2.0",
+    "cheerio": "^0.19.0",
+    "config": "^1.17.1",
+    "merge": "^1.2.0",
+    "mocha": "^2.0.1",
+    "mocha-teamcity-reporter": "^1.0.0",
+    "moment-timezone": "^0.5.0",
+    "nodemailer": "^0.7.1",
+    "request": "~2.51.0",
+    "string-format": "~0.5.0",
+    "xml2js": "^0.4.15"
+  },
+  "optionalDependencies": {
+    "mocha": "2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GannettDigital/editors-pick-feeds"
+  },
+  "keywords": [
+    "mocha",
+    "nodejs",
+    "cap",
+    "test",
+    "automation"
+  ],
+  "author": "API Test Automation Team",
+  "license": "none",
+  "bugs": {
+    "url": "https://github.com/GannettDigital/editors-pick-feeds/issues"
+  },
+  "homepage": "https://github.com/GannettDigital/editors-pick-feeds"
+}

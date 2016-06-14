@@ -1,0 +1,4 @@
+# Created by .ignore support plugin (hsz.mobi)
+mocha/npm-debug.log
+mocha/node_modules
+mocha/lib/npm-debug.log
